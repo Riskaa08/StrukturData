@@ -1,0 +1,42 @@
+package primitif;
+
+public class Primitif {
+
+    public static void main(String[] args) {
+         // Array untuk tipe data primitif dalam Java
+        
+        // Tipe data primitif integer
+        int[] intArray = {10,18,80,85,55,35};
+        System.out.println("Panjang intArray: " + intArray.length);
+        
+        // Tipe data primitif double
+        double[] doubleArray = {2.8,1,85,8.10};
+        System.out.println("Panjang doubleArray: " + doubleArray.length);
+        
+        // Tipe data primitif char
+        char[] charArray = {'R','I','S','K','A'};
+         System.out.println("Panjang charArray: " + charArray.length);
+       
+        // Tipe data primitif boolean
+        boolean[] booleanArray = {true, false};
+        System.out.println("Panjang booleanArray: " + booleanArray.length);
+        
+        // Tipe data primitif byte
+        byte[] byteArray = {80,-12,40};
+        System.out.println("Panjang byteArray: " + byteArray.length);
+        
+        // Tipe data primitif short
+        short[] shortArray = {100,150,200,250};
+        System.out.println("Panjang shortArray: " + shortArray.length);
+        
+        // Tipe data primitif long
+        long[] longArray = {1802055, 1918179, 2736348, 6543210};
+        System.out.println("Panjang longArray: " + longArray.length);
+        
+        // Tipe data primitif float
+        float[] floatArray = {1.25f, 2.48f, 5.55f};
+        System.out.println("Panjang floatArray: " + floatArray.length);
+        
+    }         
+    
+}
