@@ -1,0 +1,27 @@
+package primitif;
+
+public class nonprimitif {
+    public static void main(String[] args) {
+  
+        String [] nama = {"Riska", "Amalia", "Ikka"};
+        System.out.println("Panjang Array String:" + nama.length);
+        
+        //Menampilkan salah satu isi dari Artay
+        System.out.println("Nama Pertama:" + nama[0]);
+        
+        //Menampilkan semua isi dari array
+        for (String nama1 : nama) {
+            System.out.println("Nama:" + nama1);
+        }
+        // Mengubah nilai elemen array
+        nama[0] = "Safira";
+        
+        // Menampilkan isi array setelah diubah
+        System.out.println("\nSetelah diubah:");
+        for (String nama1 : nama) {
+            System.out.println("Nama: " + nama1);
+        }
+          
+    }
+   
+}
